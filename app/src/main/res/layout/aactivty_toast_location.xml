@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="#accc"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_drag"
+        android:background="@drawable/ic_launcher_foreground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_up"
+        android:visibility="invisible"
+        android:text="按住提示框拖曳到任意位置"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:background="#00a0ff"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_down"
+        android:visibility="visible"
+        android:text="按住提示框拖曳到任意位置"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:background="#00a0ff"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
